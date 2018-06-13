@@ -6,7 +6,8 @@ end
 
 def summon_captain_planet(array)
     array.each do |element|
-        element = element.charAt(0).toUpperCase
+        element = "#{element.capitalize}!"
+    end 
 end
 
 def long_planeteer_calls# code an argument here
